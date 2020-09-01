@@ -7,6 +7,8 @@ export default function User(props) {
     user
   } = props
 
+
+
   return (
     <section className='users-container'>
       <img src={user.avatar_url} alt='github avatar' />

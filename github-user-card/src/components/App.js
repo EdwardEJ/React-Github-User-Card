@@ -45,7 +45,7 @@ export default class App extends React.Component {
         <SearchBar />
         <User user={this.state.user} />
         {this.state.followers.map(follower => {
-          return <UserFollowers followers={follower} />
+          return <UserFollowers key={follower.id} followers={follower} />
         })}
       </div>
     );
