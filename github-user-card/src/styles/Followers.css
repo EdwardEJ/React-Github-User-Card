@@ -1,14 +1,14 @@
-.users-container {
+.followers-container {
   margin: 3%;
   display: flex;
   width: 43%;
 }
 
-.users-container img {
+.followers-container img {
   width: 50%;
 }
 
-.user-info {
+.follwers-info {
   margin: 3%;
   display: flex;
   flex-direction: column;
